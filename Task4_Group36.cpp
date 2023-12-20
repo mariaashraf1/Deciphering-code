@@ -21,7 +21,7 @@ int modInverse(int a, int m)                              // function to calcula
             return x;
         }  
     }
-      return 0;       
+      return -1;       
 } 
 
 string numberstoletters(int n,string s){                // convert numbers that resulted numbers from inverse function of deciphering into characters 
