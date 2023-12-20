@@ -106,7 +106,7 @@ string decipher(string s,int a,int b){              //function to convert given 
 int main()
 {   
     string given="ELYPCOGLIOGOXOQTGXDF";   // message given to be diciphered
-    string small="elypcogliogoxoqtgxdf";
+    string small="elypcogliogoxoqtgxdf";   //test small letter messages 
     string x,y;                           //string to store the deciphered message
     x=decipher(given,7,7);               //call the decipher function and pass to it given message and keys as a=7 ,b=7 
     y=decipher(small,7,7);
